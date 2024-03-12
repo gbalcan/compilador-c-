@@ -1,0 +1,37 @@
+class MyClass {
+    int myVariable;
+    string myString;
+    
+    constructor() {
+        myVariable = 42;
+        myString = "Hello, World!";
+    }
+
+    public void printMessage() {
+        print(myString);
+    }
+}
+
+class AnotherClass extends MyClass {
+    int anotherVariable;
+
+    constructor() {
+        super();
+        anotherVariable = 99;
+    }
+
+    public void printMessage() {
+        print("Another class message");
+    }
+}
+
+int main() {
+    MyClass obj1 = new MyClass();
+    AnotherClass obj2 = new AnotherClass();
+
+    obj1.printMessage();
+    obj2.printMessage();
+
+    return 0;
+}
+
