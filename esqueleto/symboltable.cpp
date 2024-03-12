@@ -21,7 +21,7 @@ SymbolTable::add(STEntry* t)
 {
     if (!(symbols.find(t->token->lexeme) == symbols.end()))
         return false;
-    //cout << "Inseri";
+    
     symbols.insert({t->token->lexeme, t});
     return true;
 }
