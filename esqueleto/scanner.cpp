@@ -209,12 +209,6 @@ Scanner::nextToken()
         pos++;
         tok = new Token(COMMA);
     }
-    // Trecho que reconhece outros casos
-    else
-    {
-        // Implemente o reconhecimento de outros casos aqui
-        // ...
-    }
 
     return tok;
  
