@@ -4,8 +4,8 @@
 class Scanner 
 {
     private: 
-        string input;//Armazena o texto de entrada
-        int pos;//Posição atual
+        string input;                //Armazena o texto de entrada
+        int pos;                    //Posição atual
         int line;
         SymbolTable* st;
     
