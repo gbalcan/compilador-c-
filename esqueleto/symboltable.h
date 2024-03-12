@@ -8,8 +8,8 @@
 class SymbolTable
 {
     private:
-        SymbolTable* parent;//Referência à tabela pai (escopo imediatamente anterior).
-        map<string, STEntry*> symbols;//Armazena os símbolos do escopo corrente.
+        SymbolTable* parent;                    //Referência à tabela pai (escopo imediatamente anterior).
+        map<string, STEntry*> symbols;          //Armazena os símbolos do escopo corrente.
 
     public:
         SymbolTable();
