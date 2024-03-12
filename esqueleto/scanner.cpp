@@ -21,9 +21,6 @@ Scanner::Scanner(string input, SymbolTable* table)
     }
     else 
         cout << "Unable to open file\n"; 
-
-    //cout << this->input;
-
 }
 
 int
